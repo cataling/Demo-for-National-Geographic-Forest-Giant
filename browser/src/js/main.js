@@ -151,7 +151,7 @@ require([
             }
             */
 
-            if (!Modernizr.webgl) {
+            /*if (!Modernizr.webgl) {
                 meetsRequirements = false;
                 console.log('webgl', meetsRequirements);
             }
@@ -164,7 +164,7 @@ require([
             if (!Modernizr.regionexclusion) {
                 meetsRequirements = false;
                 console.log('regionexclusion', meetsRequirements);
-            }
+            } */
 
             return meetsRequirements;
         }
